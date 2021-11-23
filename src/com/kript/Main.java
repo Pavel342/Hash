@@ -23,11 +23,11 @@ public class Main {
 	    byte[] inputMessage=vvod.getBytes(StandardCharsets.UTF_8);
 	    final String[] codirovky={ "GOST3411", "RIPEMD320", "MD5", "SHA256",
                 "RIPEMD128", "RIPEMD160", "SHA512", "SHA384", "RIPEMD256", "SHA224"};
-        BufferedReader br1 = new BufferedReader(new FileReader("/Users/pavel/Documents/Программы/Lab5/src/com/min.txt"));
+        BufferedReader br1 = new BufferedReader(new FileReader("Lab5/src/com/min.txt"));
         String fil1=br1.readLine();
-        BufferedReader br2 = new BufferedReader(new FileReader("/Users/pavel/Documents/Программы/Lab5/src/com/sredniy.txt"));
+        BufferedReader br2 = new BufferedReader(new FileReader("Lab5/src/com/sredniy.txt"));
         String fil2=br2.readLine();
-        BufferedReader br3 = new BufferedReader(new FileReader("/Users/pavel/Documents/Fluter cours/1/1. Dart. Основы/[BOOMINFO.RU] lesson_01.dart.basics.pdf"));
+        BufferedReader br3 = new BufferedReader(new FileReader("/Fluter cours/1/1. Dart. Основы/[BOOMINFO.RU] lesson_01.dart.basics.pdf"));
         String fil3=br3.readLine();
         byte[] filebytecode1=fil1.getBytes(StandardCharsets.UTF_8);
         byte[] filebytecode2=fil2.getBytes(StandardCharsets.UTF_8);
